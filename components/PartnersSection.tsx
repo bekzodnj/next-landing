@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function PartnersSection() {
   return (
-    <section className="container mx-auto bg-white py-24 sm:py-10">
+    <section className="py-18 container mx-auto bg-white sm:py-10">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <h2 className="text-center text-base font-semibold leading-7 text-orange-600">
           WHY US

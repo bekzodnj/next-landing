@@ -43,7 +43,7 @@ export default function TruckSelect() {
           return (
             <button
               onClick={() => setSelectedTruck(truck.imageUrl)}
-              key={truck.imageUrl}
+              key={truck.truckName}
               className="g-white rounded border border-gray-400 px-4 py-2 text-sm font-semibold text-gray-800 shadow hover:bg-gray-100 active:bg-gray-300"
             >
               {truck.truckName}
