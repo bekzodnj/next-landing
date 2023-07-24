@@ -9,8 +9,8 @@ import image2 from "../public/images/bg_1.jpg";
 
 export default function FeaturesAccordion() {
   return (
-    <section className="py-18 container mx-auto bg-white sm:py-20">
-      <div className="mx-auto mb-16 max-w-2xl lg:text-center">
+    <section className="container mx-auto bg-white py-14 sm:py-20">
+      <div className="mx-auto mb-4 max-w-2xl sm:mb-16 lg:text-center">
         <h2 className="text-center text-base font-semibold leading-7 text-orange-600">
           OUR SERVICES
         </h2>
@@ -18,7 +18,7 @@ export default function FeaturesAccordion() {
           We have the experience you can trust
         </h3>
       </div>
-      <div className="flex h-[400] w-full flex-col items-center gap-x-10 sm:flex-row">
+      <div className="flex h-[400] w-full flex-col items-center gap-x-10 gap-y-4 sm:flex-row">
         <Image
           src={image2}
           alt="Car"

@@ -31,7 +31,7 @@ const features = [
 export default function ServicesSection() {
   return (
     <section className="container mx-auto">
-      <div className="py-18 bg-white  sm:py-20">
+      <div className="bg-white py-14 sm:py-20">
         <div className="mx-auto max-w-7xl px-6 lg:px-8">
           <div className="mx-auto max-w-2xl lg:text-center">
             <h2 className="text-base font-semibold leading-7 text-orange-600">
@@ -51,10 +51,10 @@ export default function ServicesSection() {
               {features.map((feature) => (
                 <div
                   key={feature.name}
-                  className="relative rounded border-gray-400 px-20 py-6 transition-shadow hover:shadow-lg"
+                  className="relative rounded border-gray-400 py-6 transition-shadow hover:shadow-lg sm:px-20"
                 >
                   <dt className="text-base font-semibold leading-7 text-gray-900">
-                    <div className="bg absolute left-2 top-4 flex h-12 w-12 items-center justify-center rounded-lg bg-orange-300 p-2">
+                    <div className="bg absolute left-[-60px] top-[25px] flex h-12 w-12 items-center justify-center rounded-lg bg-orange-300 p-2 sm:left-2 sm:top-4">
                       <Image
                         src={feature.icon}
                         width={120}

@@ -32,7 +32,7 @@ const callouts = [
 
 export default function BlogSnippet() {
   return (
-    <section className="mx-auto bg-gray-100 ">
+    <section className="container mx-auto bg-gray-100 ">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="0 mx-auto max-w-2xl py-16 sm:py-20 lg:max-w-none lg:py-20">
           <h2 className="mb-10 text-2xl font-bold text-gray-900 sm:text-center">

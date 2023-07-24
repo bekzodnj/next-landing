@@ -3,19 +3,19 @@ export default function Footer() {
   return (
     <footer className="container bg-white dark:bg-gray-900">
       <div className="py-18 mx-auto w-full max-w-screen-xl p-4 lg:py-20">
-        <div className="md:flex md:justify-between">
-          <div className="mb-6 md:mb-0">
-            <Link href="/" className="flex items-center">
-              {/* <img
+        <div className="mb-6">
+          <Link href="/" className="flex items-center">
+            {/* <img
                 src="/docs/images/logo.svg"
                 className="mr-3 h-8"
                 alt="FlowBite Logo"
               /> */}
-              <span className="self-center whitespace-nowrap text-2xl font-semibold dark:text-white">
-                Delog
-              </span>
-            </Link>
-          </div>
+            <span className="self-center whitespace-nowrap text-2xl font-semibold dark:text-white">
+              Delog
+            </span>
+          </Link>
+        </div>
+        <div className="items-baseline gap-x-2 md:flex md:justify-between">
           <div className="grid grid-cols-2 gap-8 sm:grid-cols-3 sm:gap-20">
             <div>
               <h2 className="mb-6 text-sm font-semibold uppercase text-gray-900 dark:text-white">
@@ -71,7 +71,9 @@ export default function Footer() {
                   <a href="mailto:info@delog.uz">Email: info@delog.uz</a>
                 </li>
                 <li className="mb-4">
-                  <p>Address: Uzbekistan, Tashkent</p>
+                  <p>
+                    Address: Uzbekistan, Tashkent, 100020, ул. Беруний, 88-дом
+                  </p>
                 </li>
               </ul>
             </div>

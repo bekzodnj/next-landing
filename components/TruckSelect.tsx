@@ -30,7 +30,7 @@ export default function TruckSelect() {
   return (
     <div
       id="car-select-card"
-      className=" w-1/2 rounded-md border bg-white px-6 py-5"
+      className="rounded-md border bg-white px-6 py-5 md:w-1/2"
     >
       <h2 className="mb-2 text-xl font-semibold leading-tight">
         Select your truck
