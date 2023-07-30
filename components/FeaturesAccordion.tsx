@@ -25,7 +25,7 @@ export default function FeaturesAccordion() {
           //   width={300}
           //   height={200}
           //   placeholder="blur"
-          className="w-1/2"
+          className="w-full sm:w-1/2"
         />
 
         <div id="accordion" className="w-full">

@@ -19,7 +19,7 @@ export default function Header() {
         <div className="container mt-28 flex flex-col gap-x-14 lg:flex-row">
           <div id="hero-text" className="w-full text-white">
             <h2 className="mb-4 text-6xl font-extralight leading-[1.1] tracking-tight text-white">
-              <span className="bg-cyan-800 sm:bg-inherit">
+              <span className="bg-cyan-800 bg-opacity-40 sm:bg-inherit">
                 Now <br /> Its easy for you <br />
                 to transport
               </span>

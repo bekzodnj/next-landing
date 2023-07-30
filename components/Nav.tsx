@@ -11,6 +11,7 @@ const navigation = [
   { name: "Incoterms", href: "#", current: false },
   { name: "Contacts", href: "#", current: false },
   { name: "Distance Calculator", href: "#", current: false },
+  { name: "Hello", href: "#", current: false },
 ];
 
 function classNames(...classes: string[]) {
