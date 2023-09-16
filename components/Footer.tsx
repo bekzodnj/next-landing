@@ -11,7 +11,7 @@ export default function Footer() {
                 alt="FlowBite Logo"
               /> */}
             <span className="self-center whitespace-nowrap text-2xl font-semibold dark:text-white">
-              Delog
+              Delog.uz
             </span>
           </Link>
         </div>
