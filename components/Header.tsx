@@ -27,7 +27,7 @@ export default function Header() {
             <p className="font mb-4 w-60 text-lg text-gray-200 sm:w-[600px]">
               A small river named Duden flows by their place and supplies it
               with the necessary regelialia. It is a paradisematic country, in
-              which roasted parts
+              which roasted parts. Bu yangi matn.
             </p>
 
             <div className="font-extralight">
