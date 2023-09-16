@@ -1,7 +1,7 @@
 import Link from "next/link";
 export default function Footer() {
   return (
-    <footer className="container bg-white dark:bg-gray-900">
+    <footer className="container bg-gray-800 dark:bg-gray-900">
       <div className="py-18 mx-auto w-full max-w-screen-xl p-4 lg:py-20">
         <div className="mb-6">
           <Link href="/" className="flex items-center">
@@ -10,7 +10,7 @@ export default function Footer() {
                 className="mr-3 h-8"
                 alt="FlowBite Logo"
               /> */}
-            <span className="self-center whitespace-nowrap text-2xl font-semibold dark:text-white">
+            <span className="self-center whitespace-nowrap text-2xl font-semibold text-white dark:text-white">
               Delog
             </span>
           </Link>
@@ -18,57 +18,70 @@ export default function Footer() {
         <div className="items-baseline gap-x-2 md:flex md:justify-between">
           <div className="grid grid-cols-2 gap-8 sm:grid-cols-3 sm:gap-20">
             <div>
-              <h2 className="mb-6 text-sm font-semibold uppercase text-gray-900 dark:text-white">
+              <h2 className="mb-6 text-sm font-semibold uppercase text-white dark:text-white">
                 Menu
               </h2>
-              <ul className="font-medium text-gray-500 dark:text-gray-400">
+              <ul className="font-medium text-gray-400 dark:text-gray-400">
                 <li className="mb-4">
-                  <Link href="/" className="hover:underline">
+                  <Link href="/" className="hover:underline hover:text-white">
                     Main
                   </Link>
                 </li>
                 <li className="mb-4">
-                  <Link href="/" className="hover:underline">
+                  <Link href="/" className="hover:underline hover:text-white">
                     Our services
                   </Link>
                 </li>
                 <li className="mb-4">
-                  <Link href="/" className="hover:underline">
+                  <Link href="/" className="hover:underline hover:text-white">
                     Incoterms
                   </Link>
                 </li>
                 <li className="mb-4">
-                  <Link href="/" className="hover:underline">
+                  <Link href="/" className="hover:underline hover:text-white">
                     Useful articles
                   </Link>
                 </li>
                 <li className="mb-4">
-                  <Link href="/" className="hover:underline">
+                  <Link href="/" className="hover:underline hover:text-white">
                     Contacts
                   </Link>
                 </li>
                 <li className="mb-4">
-                  <Link href="/" className="hover:underline">
+                  <Link href="/" className="hover:underline hover:text-white">
                     Distance calculator
                   </Link>
                 </li>
               </ul>
             </div>
             <div className="">
-              <h2 className="mb-6 text-sm font-semibold uppercase text-gray-900 dark:text-white">
+              <h2 className="mb-6 text-sm font-semibold uppercase text-white dark:text-white">
                 Contacts
               </h2>
-              <ul className="font-medium text-gray-500 dark:text-gray-400">
+              <ul className="font-medium text-gray-400 dark:text-gray-400">
                 <li className="mb-4">
-                  <Link href="tel:+998998042580" className="hover:underline ">
-                    Phone: (+998 99) 804-25-80
+                <span className="dark:text-gray-400 sm:text-center">
+                  Phone:{" "}
+                  <Link href="tel:+998998042580" className="hover:underline hover:text-white">
+                  +99899 804-25-80
                   </Link>
+                </span>
                 </li>
                 <li className="mb-4">
-                  <p>Fax: (+99878) 147-85-85</p>
+                <span className="dark:text-gray-400 sm:text-center">
+                  Fax:{" "}
+                  <Link href="fax:+998781478585" className="hover:underline hover:text-white">
+                  +99878 147-85-85
+                  </Link>
+                </span>
                 </li>
                 <li className="mb-4">
-                  <a href="mailto:info@delog.uz">Email: info@delog.uz</a>
+                  <span className="dark:text-gray-400 sm:text-center">
+                  Email:{" "}
+                  <Link href="mailto:info@delog.uz" className="hover:underline hover:text-white">
+                  info@delog.uz
+                  </Link>
+                  </span>
                 </li>
                 <li className="mb-4">
                   <p>
@@ -78,17 +91,17 @@ export default function Footer() {
               </ul>
             </div>
             <div>
-              <h2 className="mb-6 text-sm font-semibold uppercase text-gray-900 dark:text-white">
+              <h2 className="mb-6 text-sm font-semibold uppercase text-white dark:text-white">
                 Legal
               </h2>
-              <ul className="font-medium text-gray-500 dark:text-gray-400">
+              <ul className="font-medium text-gray-400 dark:text-gray-400">
                 <li className="mb-4">
-                  <a href="#" className="hover:underline">
+                  <a href="#" className="hover:underline hover:text-white">
                     Privacy Policy
                   </a>
                 </li>
                 <li>
-                  <a href="#" className="hover:underline">
+                  <a href="#" className="hover:underline hover:text-white">
                     Terms &amp; Conditions
                   </a>
                 </li>
@@ -96,11 +109,11 @@ export default function Footer() {
             </div>
           </div>
         </div>
-        <hr className="my-6 border-gray-200 dark:border-gray-700 sm:mx-auto lg:my-8" />
+        <hr className="my-6 border-white dark:border-gray-700 sm:mx-auto lg:my-8" />
         <div className="sm:flex sm:items-center sm:justify-between">
-          <span className="text-sm text-gray-500 dark:text-gray-400 sm:text-center">
+          <span className="text-sm text-gray-400 dark:text-gray-400 sm:text-center">
             © 2023{" "}
-            <Link href="/" className="hover:underline">
+            <Link href="/" className="hover:underline hover:text-white">
               RTX ALLIANZ™
             </Link>
             . All Rights Reserved.
@@ -108,7 +121,7 @@ export default function Footer() {
           <div className="mt-4 flex space-x-5 sm:mt-0 sm:justify-center">
             <a
               href="#"
-              className="text-gray-500 hover:text-gray-900 dark:hover:text-white"
+              className="text-gray-400 hover:text-white dark:hover:text-white"
             >
               <svg
                 className="h-4 w-4"
@@ -127,7 +140,7 @@ export default function Footer() {
             </a>
             <a
               href="#"
-              className="text-gray-500 hover:text-gray-900 dark:hover:text-white"
+              className="text-gray-400 hover:text-white dark:hover:text-white"
             >
               <svg
                 className="h-4 w-4"
@@ -142,7 +155,7 @@ export default function Footer() {
             </a>
             <a
               href="#"
-              className="text-gray-500 hover:text-gray-900 dark:hover:text-white"
+              className="text-gray-400 hover:text-white dark:hover:text-white"
             >
               <svg
                 className="h-4 w-4"
@@ -161,7 +174,7 @@ export default function Footer() {
             </a>
             <a
               href="#"
-              className="text-gray-500 hover:text-gray-900 dark:hover:text-white"
+              className="text-gray-400 hover:text-white dark:hover:text-white"
             >
               <svg
                 className="h-4 w-4"
@@ -180,7 +193,7 @@ export default function Footer() {
             </a>
             <a
               href="#"
-              className="text-gray-500 hover:text-gray-900 dark:hover:text-white"
+              className="text-gray-400 hover:text-white dark:hover:text-white"
             >
               <svg
                 className="h-4 w-4"

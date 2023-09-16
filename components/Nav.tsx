@@ -4,10 +4,11 @@ import { Disclosure, Menu, Transition } from "@headlessui/react";
 import { Bars3Icon, XMarkIcon } from "@/public/images/svgs/ui/XMarkIcon";
 import Image from "next/image";
 import Link from "next/link";
+import { useRouter } from 'next/router'; //addition
 
 const navigation = [
-  { name: "Main", href: "#", current: true },
-  { name: "Services", href: "#", current: false },
+  { name: "Main", href: "/", current: true },
+  { name: "Services", href: "Services", current: false },
   { name: "Incoterms", href: "#", current: false },
   { name: "Contacts", href: "#", current: false },
   { name: "Distance Calculator", href: "#", current: false },
@@ -19,6 +20,8 @@ function classNames(...classes: string[]) {
 }
 
 export default function Nav() {
+  const router = useRouter(); //addition
+
   return (
     <Disclosure as="nav" className="sticky top-0 bg-gray-800">
       {({ open }) => (
@@ -123,7 +126,6 @@ export default function Nav() {
               </div>
             </div>
           </div>
-
           <Disclosure.Panel className="sm:hidden">
             <div className="space-y-1 px-2 pb-3 pt-2">
               {navigation.map((item) => (
