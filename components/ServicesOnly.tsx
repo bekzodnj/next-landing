@@ -5,25 +5,25 @@ const features = [
   {
     name: "Automobile & Truck Shipping",
     description:
-      "Morbi viverra dui mi arcu sed. Tellus semper adipiscing suspendisse semper morbi. Odio urna massa nunc massa.",
+      "DELOG provides road transport services. Our main activity is organizing international cargo transportation.",
     icon: "/images/svgs/truck.svg",
   },
   {
     name: "Air Freight",
     description:
-      "Sit quis amet rutrum tellus ullamcorper ultricies libero dolor eget. Sem sodales gravida quam turpis enim lacus amet.",
+      "If you have urgent cargo that needs to be sent by air from Uzbekistan or you urgently need to deliver cargo [...]",
     icon: "/images/svgs/plane.svg",
   },
   {
     name: "Shipping",
     description:
-      "Quisque est vel vulputate cursus. Risus proin diam nunc commodo. Lobortis auctor congue commodo diam neque.",
+      "We work and maintain contact with representatives of seaports in Hamburg and Shanghai. We organize container transportation of your goods [...]",
     icon: "/images/svgs/ship.svg",
   },
   {
     name: "Railroad Transportation",
     description:
-      "Arcu egestas dolor vel iaculis in ipsum mauris. Tincidunt mattis aliquet hac quis. Id hac maecenas ac donec pharetra eget.",
+      "Our company, at your request, organizes container transportation from China to Uzbekistan. Our partners in China will organize delivery of the container to [...]",
     icon: "/images/svgs/train.svg",
   },
 ];
